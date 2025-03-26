@@ -4,7 +4,7 @@
 # 此代码仅供学习与交流，请勿用于商业用途。
 # 爬取小区数据的爬虫派生类
 import  sys
-sys.path.append("/home/admin/py/lj-spider/lib/")
+sys.path.append("/home/admin/py/lj-spider")
 import re
 import threadpool
 from bs4 import BeautifulSoup
