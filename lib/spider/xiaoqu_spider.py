@@ -3,10 +3,6 @@
 # author: zengyuetian
 # 此代码仅供学习与交流，请勿用于商业用途。
 # 爬取小区数据的爬虫派生类
-import  sys
-sys.path.append("/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages")
-sys.path.append("/Users/xuweiqi/var/python/lianjia-beike-spider-master")
-sys.path
 import re
 import threadpool
 from bs4 import BeautifulSoup
