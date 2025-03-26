@@ -35,6 +35,7 @@ def get_areas(city, district):
         html = response.content
         root = etree.HTML(html)
         links = root.xpath(DISTRICT_AREA_XPATH)
+        print(links)
 
         # 针对a标签的list进行处理
         for link in links:
